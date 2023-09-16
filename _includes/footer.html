@@ -1,0 +1,9 @@
+<footer>
+  <div>
+    <div>
+      {% for item in site.data.settings.social %}
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

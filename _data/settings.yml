@@ -1,0 +1,9 @@
+menu:
+- {name: 'home', url: '/'}
+- {name: 'about', url: '/about'}
+- {name: 'blog', url: '/blog'}
+- {name: 'people', url: '/people'}
+
+social:
+- {name: 'github', link: 'https://github.com/mattragoza'}
+- {name: 'linkedin', link: 'https://linkedin.com/in/matthewragoza'}
