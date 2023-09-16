@@ -2,15 +2,19 @@
 layout: default
 ---
 
-<div>
-  <div>
+<div class="row g-5 mb-5">
+  <div class="col-md-6">
+    <h3 class="fw-bold">Research</h3>
     {{ content }}
-  <div>
+  </div>
+  <div class="col-md-6">
+    <img src="/assets/images/avatar.jpg" alt="Home" width="80%">
+  </div>
 </div>
 
-<div>
-  <div>
-    <h3>Updates</h3>
+<div class="row g-5 mb-5">
+  <div class="col-md-6">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
     {% for post in site.posts %}
       <p><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></p>
     {% endfor %}
