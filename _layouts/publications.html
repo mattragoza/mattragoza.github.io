@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div>
+  <div>
+    <h3>Publications</h3>
+    {% for item in site.data.settings.publications %}
+      <p><a href="{{ item.link }}">{{ item.name }}</a></p>
+    {% endfor %}
+  </div>
+</div>

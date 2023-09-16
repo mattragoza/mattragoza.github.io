@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div>
+  <div>
+    <h3>Contact</h3>
+    {% for contact in site.data.settings.contact %}
+      <p>{{ contact.name }}</p>
+      <p>{{ contact.email }}</p>
+    {% endfor %}
+  </div>
+</div>

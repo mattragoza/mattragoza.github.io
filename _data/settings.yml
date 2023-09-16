@@ -1,9 +1,14 @@
 menu:
-- {name: 'home', url: '/'}
-- {name: 'about', url: '/about'}
-- {name: 'blog', url: '/blog'}
-- {name: 'people', url: '/people'}
+- {name: 'Projects', url: '/projects'}
+- {name: 'Publications', url: '/publications'}
+- {name: 'Contact', url: '/contact'}
+
+publications:
+- {name: 'Physics-Informed Neural Networks for Tissue Elasticity Reconstruction in Magnetic Resonance Elastography', link: 'TODO'}
+
+contact:
+- {name: 'Matthew Ragoza', email: 'mtr22@pitt.edu'}
 
 social:
-- {name: 'github', link: 'https://github.com/mattragoza'}
-- {name: 'linkedin', link: 'https://linkedin.com/in/matthewragoza'}
+- {name: 'GitHub', link: 'https://github.com/mattragoza'}
+- {name: 'LinkedIn', link: 'https://linkedin.com/in/matthewragoza'}
