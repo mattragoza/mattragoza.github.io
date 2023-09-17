@@ -5,10 +5,15 @@ menu:
 
 publications:
 - {name: 'Physics-Informed Neural Networks for Tissue Elasticity Reconstruction in Magnetic Resonance Elastography', link: 'TODO'}
+- {name: 'Generating 3D molecules conditional on receptor binding sites with deep generative models', link: 'TODO'}
+- {name: 'GNINA 1.0: molecular docking with deep learning', link: 'TODO'}
+- {name: 'Learning a continuous representation of 3D molecular structures with deep generative models', link: 'TODO'}
+- {name: 'Protein–ligand scoring with convolutional neural networks', link: 'TODO'}
 
 contact:
-- {name: 'Matthew Ragoza', email: 'mtr22@pitt.edu'}
+- {name: 'Matthew Ragoza', email: 'mtr22 [at] pitt [dot] edu'}
 
 social:
-- {name: 'GitHub', link: 'https://github.com/mattragoza'}
-- {name: 'LinkedIn', link: 'https://linkedin.com/in/matthewragoza'}
+- {icon: 'github', link: 'https://github.com/mattragoza'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/matthewragoza'}
+- {icon: 'google', link: 'https://scholar.google.com/citations?user=KVAUxiEAAAAJ&hl=en&oi=ao'}
